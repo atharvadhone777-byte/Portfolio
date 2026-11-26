@@ -1,0 +1,139 @@
+{
+  "name": "Atharva Dhone",
+  "contact": {
+    "mobile": "+91-8180035445",
+    "email": "atharvadhone777@gmail.com",
+    "linkedin": "Atharva Dhone",
+    "github": "AtharvaDhone",
+    "codeforces": [
+      "Atharva dhone7",
+      "Celestial 11"
+    ],
+    "codechef": "atharva dhone",
+    "leetcode": "Atharva Dhone"
+  },
+  "education": [
+    {
+      "institution": "Indian Institute of Information Technology",
+      "location": "Lucknow, Uttar Pradesh, India",
+      "degree": "B.Tech",
+      "field": "Computer Science and Artificial Intelligence",
+      "gpa": 9.12,
+      "start_date": "August 2025",
+      "end_date": "May 2029",
+      "coursework": [
+        "Data Structures",
+        "Object Oriented Programming (OOPs)",
+        "Database Management Systems",
+        "Computer Organization and Architecture",
+        "Theory of Automata"
+      ]
+    }
+  ],
+  "projects": [
+    {
+      "name": "GridWise AI",
+      "subtitle": "Smart Electricity Demand Forecasting",
+      "tech_stack": [
+        "Python",
+        "TensorFlow",
+        "Keras",
+        "FastAPI",
+        "Next.js",
+        "TypeScript",
+        "Tailwind CSS",
+        "Recharts"
+      ],
+      "highlights": [
+        "Developed an LSTM-based forecasting pipeline to predict household electricity consumption for the next 24 hours using historical power usage data.",
+        "Designed an interactive dashboard featuring consumption trends, actual vs. predicted usage, peak-hour detection, and estimated electricity bills.",
+        "Integrated forecasting outputs with anomaly detection and actionable energy-saving recommendations to support smarter household electricity management."
+      ],
+      "github": ""
+    },
+    {
+      "name": "Zaika AI",
+      "subtitle": "AI-Powered Recipe Assistant",
+      "tech_stack": [
+        "Python",
+        "TensorFlow",
+        "FastAPI",
+        "FAISS",
+        "React",
+        "Tailwind",
+        "Docker"
+      ],
+      "highlights": [
+        "Trained a dual-encoder embedding model with in-batch InfoNCE loss to rank recipes by ingredient compatibility, evaluated via precision@k, recall@k, and MRR.",
+        "Built a retrieval-augmented chatbot grounded in a curated knowledge base to handle ingredient substitutions and dietary adaptations without hallucinated advice.",
+        "Engineered a FastAPI backend with a FAISS-indexed vector search pipeline and a React frontend, validated through 22 integration tests against the live trained model."
+      ],
+      "github": ""
+    },
+    {
+      "name": "WhatsApp Chat Analyzer",
+      "tech_stack": [
+        "Python",
+        "Streamlit",
+        "Pandas",
+        "Matplotlib",
+        "WordCloud",
+        "Regex"
+      ],
+      "highlights": [
+        "Built a regex-based parser to extract users, timestamps, and messages from raw WhatsApp export files into structured, analyzable data.",
+        "Generated message/word/media statistics, word clouds, and emoji usage breakdowns for both individual users and overall group activity.",
+        "Designed monthly, daily, and weekly activity timelines to surface usage trends and identify the most active users and periods."
+      ],
+      "github": ""
+    }
+  ],
+  "achievements": [
+    "Achieved Pupil title on Codeforces: 1272 rating with rank 2535 in Codeforces Round 1119 Div. 3.",
+    "Earned a 2-Star rating on CodeChef: 1537 rating with rank 1371 in Starters 255 Div. 3.",
+    "Codeforces peak global ranks: 2535, 4424, 5119 and 5232 in Round 1119, Round 1117, Educational Round 193 and Round 1121.",
+    "CodeChef peak global ranks: 371, 972, 1093 and 1219 in Starters 219 Div. 4, Starters 229 Div. 3, Starters 251 Div. 3 and Starters 230 Div. 3.",
+    "Solved 1200+ problems across platforms: 800+ on Codeforces and 400+ on CodeChef and LeetCode.",
+    "HackerRank Orchestrate October 2026: global rank 2063.",
+    "JEE Main: 99.16 percentile with AIR 12,967; JEE Advanced: AIR 13,465."
+  ],
+  "skills": {
+    "languages": [
+      "C",
+      "C++",
+      "JavaScript",
+      "Python",
+      "Java"
+    ],
+    "frameworks_and_libraries": [
+      "React",
+      "Spring Boot",
+      "TensorFlow",
+      "Keras",
+      "FastAPI",
+      "Streamlit"
+    ],
+    "tools_and_platforms": [
+      "MySQL",
+      "VS Code",
+      "IntelliJ",
+      "Git",
+      "GitHub",
+      "Docker"
+    ],
+    "soft_skills": [
+      "Strategic Planning",
+      "Conflict Resolution",
+      "Communication",
+      "Coordination"
+    ]
+  },
+  "extracurricular": [
+    {
+      "role": "Member",
+      "organization": "Estrella (Musical Society of IIIT Lucknow)",
+      "start_date": "August 2026",
+      "end_date": "Present"
+    }
+  ]
+}
