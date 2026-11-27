@@ -418,10 +418,10 @@ p {
   border-bottom: 1px solid;
 }
 .cover-portrait {
-  width: 295px;
+  width: 335px;
   position: absolute;
-  top: 32px;
-  right: 30px;
+  top: 20px;
+  right: 20px;
   transform: rotate(7deg);
   z-index: 2;
 }
@@ -452,10 +452,10 @@ p {
 }
 .cover-backing {
   position: absolute;
-  width: 300px;
-  height: 381px;
-  right: 22px;
-  top: 32px;
+  width: 340px;
+  height: 420px;
+  right: 10px;
+  top: 20px;
   background: var(--secondary);
   box-shadow: var(--paper-shadow);
   transform: rotate(-5deg);

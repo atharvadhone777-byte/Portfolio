@@ -126,11 +126,11 @@ function Index() {
               caption="a work in progress, always."
             />
             <Tape className="cover-tape" />
-            <PhotoFrame
+            {/* <PhotoFrame
               id="PERSONAL_PHOTO_02"
               className="cover-mini-photo"
               caption="bits of my world."
-            />
+            /> */}
             <HandwrittenAnnotation className="cover-note">
               The person behind the pixels.
               <SketchArrow />

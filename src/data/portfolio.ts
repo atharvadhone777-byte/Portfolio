@@ -1,20 +1,31 @@
 import resume from "./resume-data.json";// Add your real media URLs here. Empty values never render broken images.
+import passportPhoto from "./passport_2.jpeg";
+import Tabla2 from "./Tabla.jpg"
+import i1 from "./images (9).jpg"
+import i2 from "./Screenshot 2026-11-26 224545.png"
+import i3 from "./Screenshot 2026-11-26 224555.png"
+import i4 from "./Screenshot 2026-11-26 224621.png"
+import i5 from "./Screenshot 2026-11-26 231331.png"
+import i6 from "./Screenshot 2026-11-26 231408.png"
+import i7 from "./Screenshot 2026-11-26 232212.png"
+import i8 from "./Screenshot 2026-11-26 232228.png"
+import i9 from "./Screenshot 2026-11-26 232241.png"
 export const assets: Record<string, string> = {
-  PROFILE_PHOTO: "",
+  PROFILE_PHOTO: passportPhoto,
   PERSONAL_PHOTO_02: "",
   DECORATIVE_PHOTO_01: "",
   ABOUT_PHOTO: "",
-  GRIDWISE_MAIN_DASHBOARD: "",
-  GRIDWISE_ANALYTICS_SCREENSHOT: "",
-  GRIDWISE_ARCHITECTURE_IMAGE: "",
-  ZAIKA_MAIN_SCREEN: "",
-  ZAIKA_RECIPE_SCREEN: "",
-  ZAIKA_ARCHITECTURE: "",
-  CHAT_ANALYZER_DASHBOARD: "",
-  CHAT_ANALYZER_WORDCLOUD: "",
-  COLLEGE_PHOTO: "",
+  GRIDWISE_MAIN_DASHBOARD: i2,
+  GRIDWISE_ANALYTICS_SCREENSHOT: i3,
+  GRIDWISE_ARCHITECTURE_IMAGE: i4,
+  ZAIKA_MAIN_SCREEN: i7,
+  ZAIKA_RECIPE_SCREEN: i8,
+  ZAIKA_ARCHITECTURE: i9,
+  CHAT_ANALYZER_DASHBOARD: i5,
+  CHAT_ANALYZER_WORDCLOUD: i6,
+  COLLEGE_PHOTO: i1,
   MUSIC_PHOTO_01: "",
-  MUSIC_PHOTO_02: "",
+  MUSIC_PHOTO_02: Tabla2,
 };
 export const identity = {
   name: "Atharva Dhone",
