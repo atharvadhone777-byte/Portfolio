@@ -10,14 +10,17 @@ import i6 from "./Screenshot 2026-11-26 231408.png"
 import i7 from "./Screenshot 2026-11-26 232212.png"
 import i8 from "./Screenshot 2026-11-26 232228.png"
 import i9 from "./Screenshot 2026-11-26 232241.png"
+import zuno1 from "./z1.png";
+import zuno2 from "./z2.png";
+import zuno3 from "./z3.png";
 export const assets: Record<string, string> = {
   PROFILE_PHOTO: passportPhoto,
   PERSONAL_PHOTO_02: "",
   DECORATIVE_PHOTO_01: "",
   ABOUT_PHOTO: "",
-  GRIDWISE_MAIN_DASHBOARD: i2,
-  GRIDWISE_ANALYTICS_SCREENSHOT: i3,
-  GRIDWISE_ARCHITECTURE_IMAGE: i4,
+  ZUNO_FEED: zuno1,
+  ZUNO_CONNECTIONS: zuno2,
+  ZUNO_PROFILE: zuno3,
   ZAIKA_MAIN_SCREEN: i7,
   ZAIKA_RECIPE_SCREEN: i8,
   ZAIKA_ARCHITECTURE: i9,
@@ -53,45 +56,55 @@ export type Project = {
   note: string;
 };
 export const projects: Project[] = [
-  {
-    id: "gridwise",
-    number: "001",
-    title: "GridWise AI",
-    category: "MACHINE LEARNING / FULL STACK",
-    tagline: "A little intelligence. A lot less wasted energy.",
-    description:
-      "Smart electricity demand forecasting using historical household power consumption data.",
-    tech: [
-      "Python",
-      "TensorFlow",
-      "Keras",
-      "FastAPI",
-      "Next.js",
-      "TypeScript",
-      "Tailwind CSS",
-      "Recharts",
-    ],
-    features: [
-      "LSTM-based forecasting of household electricity consumption for the next 24 hours.",
-      "Interactive energy analytics with consumption trends and actual vs. predicted usage.",
-      "Peak-hour detection and estimated electricity bills.",
-      "Anomaly detection and actionable energy-saving recommendations.",
-    ],
-    problem:
-      "How can historical consumption patterns help households anticipate demand and understand their energy usage?",
-    approach:
-      "Use a time-series forecasting pipeline to connect historical household power consumption with practical, understandable analytics.",
-    implementation:
-      "An LSTM model built with TensorFlow and Keras powers a FastAPI service. A Next.js and TypeScript interface presents the forecasts and energy trends using Recharts.",
-    images: [
-      "GRIDWISE_MAIN_DASHBOARD",
-      "GRIDWISE_ANALYTICS_SCREENSHOT",
-      "GRIDWISE_ARCHITECTURE_IMAGE",
-    ],
-    githubUrl: "https://github.com/atharvadhone777-byte/Voltora",
-    demoUrl: "",
-    note: "From patterns to predictions. ↗",
-  },
+  
+{
+  id: "zuno",
+  number: "001",
+  title: "ZUNO",
+  category: "FULL STACK / MERN / SOCIAL MEDIA",
+  tagline: "Connect. Share. Discover.",
+  description:
+    "A full-stack social media platform built to bring people together through sharing, conversations and meaningful connections.",
+  tech: [
+    "React",
+    "Vite",
+    "JavaScript",
+    "Tailwind CSS",
+    "Node.js",
+    "Express.js",
+    "MongoDB",
+    "Mongoose",
+    "Clerk",
+    "Google OAuth",
+    "ImageKit",
+    "Axios"
+  ],
+  features: [
+    "Google authentication and secure user account management using Clerk.",
+    "Create posts with captions and multiple image uploads using ImageKit.",
+    "Like, comment and interact with posts through a personalized social feed.",
+    "User profiles with profile pictures, cover images, bios and activity.",
+    "Follow/unfollow users, connection requests and suggested users.",
+    "Discover users through name and username search.",
+    "24-hour stories with image uploads and story viewer.",
+    "One-to-one messaging with text and image sharing.",
+    "Notifications for likes, comments, follows and messages."
+  ],
+  problem:
+    "Social platforms should make it easier to discover people, share experiences and build meaningful connections in one place.",
+  approach:
+    "Build a complete social networking experience with a responsive interface, secure authentication and a centralized backend connected to MongoDB.",
+  implementation:
+    "React and Vite power the frontend, styled with Tailwind CSS. Node.js and Express.js provide REST APIs, while MongoDB and Mongoose manage users, posts, stories, connections, messages and notifications. Clerk handles Google authentication and ImageKit manages image uploads. The frontend and backend are deployed using Vercel and Render.",
+  images: [
+    "ZUNO_FEED",
+    "ZUNO_CONNECTIONS",
+    "ZUNO_PROFILE"
+  ],
+  githubUrl: "",
+  demoUrl: "https://zuno-smoky.vercel.app",
+  note: "A space to connect, share & discover."
+},
   {
     id: "zaika",
     number: "002",
